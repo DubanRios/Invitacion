@@ -61,7 +61,7 @@ width: 34vw;
   }
 
   /* header */
-header{background-image: url(img/opcion3.jpg);
+header{background-image: url(../img/agarrados.jpg);
   background-size: cover;
   width: 100%;
 height: 100vh;
@@ -230,7 +230,7 @@ justify-content: center;}
     }
 
 
-  footer{background-image: url(img/opcion2.jpg);
+  footer{background-image: url(./img/escaleras.jpg);
     background-size: cover;
     width: 100%;
   height: 100vh;
@@ -242,7 +242,7 @@ justify-content: center;}
 
 
  @media (max-width: 600px) {
-  header{background-image: url(/img/opcion3.jpg);
+  header{background-image: url(/img/agarrados.jpg);
 background-size:109% 300px;
 background-repeat: no-repeat;
 width:599px ;
@@ -253,7 +253,7 @@ height:300px;
   padding: 0%;
   margin: 0%;
   }
-  footer{background-image: url(/img/opcion2.jpg);
+  footer{background-image: url(/img/escaleras.jpg);
     background-size: 109% 300px;
     background-repeat: no-repeat ;
     width: 599px;
