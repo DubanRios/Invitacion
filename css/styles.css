@@ -3,7 +3,7 @@
 padding: 0;
 box-sizing: border-box;
 }
-
+.contenedor{width: 100%;}
 .horizontal { width: 98%;
 height: 600px;
 
@@ -18,6 +18,7 @@ margin-bottom: 90px;
 }
 .simply-section{background-color:#f1ead1;
   background-image: url(/img/flor.png);
+  background-size: cover;
 width: 180px;
 height: 180px;
 margin: 6px 20px;
@@ -239,114 +240,11 @@ justify-content: center;}
   justify-content: center;
   align-items: center;
   padding: 0%; margin-top: 30px;}
-  
 
 
- @media (max-width: 425px) {
-  header{background-image: url(/img/agarrados.jpg);
-background-size:425px 200px;
-background-repeat: no-repeat;
-width:425px ;
-height:300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0%;
-  margin: 0%;
-  }
-  footer{background-image: url(/img/escaleras.jpg);
-    background-size: 425px 200px;
-    background-repeat: no-repeat ;
-    width: 599px;
-  height: 370px ;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0%; margin-top: 30px;}
-  
-  #cuenta {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 90px;
-    
-    }
-    .simply-section{background-color:#f1ead1;
-      background-image: url(/img/flor.png);
-      background-size: 100%;
-    width: 120px;
-    height: 215px;
-    margin: 1px 10px;
-    padding: 40px;
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-width: 1px;
-    border-style: solid;
-    border-color: black;  }
-    
-    .simply-amount{display: block;
-      font-family: 'Shippori Mincho', serif;
-      font-size: 50px;
-      font-weight: 700;
-    }
-    .simply-word{ font-weight: 400;
-    font-size: 30px;
-    }
-    h1::after,h1::before{
-      content:'';
-      position:absolute;
-      width: 130px;
-      height: 3px;
-      background-color: white;
-      top: 0.67em;
-      }
-    h1::before{
-      left: -140px;
-    }
-    h1::after{
-      right: -140px;
-    }
-    .galeria{
-      display: flex;
-      flex-direction: row;
-      flex-wrap:wrap;
-      }
-      .opcion5{display: flex;
-      height: 200px;
-    width: 385px;}
-      
-      .fotomirandonos2{display: flex;
-      height: 200px;
-      width: 200px      }
-      .opcion3{display: flex;
-      height: 200px; width: 385px;    }
-      .beso{display: flex;
-        height: 200px;      width: 200px ;       } 
-
-        h5{display: inline-block;
-          position: relative;
-          margin: 10px;
-        }
-        h5::after,h5::before{
-          content:'';
-          position:absolute;
-          width: 100px;
-          height: 3px;
-          background-color: rgb(0, 0, 0);
-          top: 0.67em;
-          
-          
-          
-          }
-          h5::before{
-            left: -140px;
-          }
-          h5::after{
-            right: -140px;
-          }
+ @media (max-width: 768px) {
         }
 
   
-  @media (min-width: 99x) {
+  @media (min-width: 992px) {
   } 
