@@ -254,8 +254,8 @@ height:300px;
   margin: 0%;
   }
   footer{background-image: url(/img/opcion2.jpg);
-    background-size: 58% 70%;
-    background-repeat: ;
+    background-size: 109% 300px;
+    background-repeat: no-repeat ;
     width: 599px;
   height: 370px ;
   display: flex;
