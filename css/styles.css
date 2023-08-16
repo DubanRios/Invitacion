@@ -61,7 +61,7 @@ width: 34vw;
   }
 
   /* header */
-header{background-image: url(img/agarrados.jpg);
+header{background-image: url(../img/agarrados.jpg);
   background-size: cover;
   width: 100%;
 height: 100vh;
@@ -231,7 +231,7 @@ justify-content: center;}
     }
 
 
-  footer{background-image: url(img/escaleras.jpg);
+  footer{background-image: url(../img/escaleras.jpg);
     background-size: cover;
     width: 100%;
   height: 100vh;
@@ -242,8 +242,8 @@ justify-content: center;}
   
 
 
- @media (min-width: 425px) {
-  header{background-image: url(img/agarrados.jpg);
+ @media (max-width: 425px) {
+  header{background-image: url(/img/agarrados.jpg);
 background-size:425px 200px;
 background-repeat: no-repeat;
 width:425px ;
@@ -254,7 +254,7 @@ height:300px;
   padding: 0%;
   margin: 0%;
   }
-  footer{background-image: url(img/escaleras.jpg);
+  footer{background-image: url(/img/escaleras.jpg);
     background-size: 425px 200px;
     background-repeat: no-repeat ;
     width: 599px;
