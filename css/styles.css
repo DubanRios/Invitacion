@@ -242,14 +242,15 @@ justify-content: center;}
   padding: 0%; margin-top: 30px;}
 
   @media (max-width: 400px) {
-header{ background-size: auto ;
+header{ background-size: contain ;
   background-repeat: no-repeat;
-  width: 420px;
-height: 200px;}
-footer{ background-size: cover;
-  background-size: auto ;
-  width: 420px;
-height: 200px;}
+  width: 400px;
+height: 225px;}
+footer{
+  background-size: contain ;
+  background-repeat: no-repeat;
+  width: 400px;
+height: 225px;}
 h1{display: inline-block;
   position: relative;
   font-family: 'Shippori Mincho', serif;
@@ -296,13 +297,14 @@ h1{display: inline-block;
     display: flex;
     justify-content:
     center;
+    text-align: center  ;
     font-size: 30px;
   margin:30px ;
 width: 320px;}
-.regresiva{width: 420px;}
+.regresiva{width: 390px;}
   .simply-section{background-color:#f1ead1;
     background-image: url(../img/flor.png);
-    background-size: cover;
+    background-size: contain;
   width: 78px;
   height: 70px;
   margin: 10px 5px;
@@ -326,23 +328,23 @@ width: 320px;}
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
-    width: 420px;
+    width: 398px;
     }
     .opcion5{display: flex;
     height: 200px;
-  width: 411px;}
+  width: 390px;}
     
     .fotomirandonos2{display: flex;
     height: 250px;
-    width: 200px;
+    width: 190px;
     }
     .opcion3{display: flex;
     height: 200px;
-    width: 410px;
+    width: 390px;
       }
     .beso{display: flex;
       height: 250px;
-    width: 210px;
+    width: 190px;
       }
       .color1 { background-color: #ccded2 ;  border-radius: 100%; width: 70px; height: 70px;  color: white; }
 .color2 { background-color: #fffbd4; border-radius: 100%; width: 70px; height: 70px;  color: white;}
@@ -357,8 +359,8 @@ width: 320px;}
 .color11{background-color: #aab69b; border-radius: 100%; width: 70px; height: 70px;  color: white;}
 .color12{background-color: #999999; border-radius: 100% ;width: 70px; height: 70px;  color: white;}
 .popup {
-  width: 370px;
-  height: 500px;
+  width: 270px;
+  height: 400px;
   display: none;
   transform: translate(-50%, -50%);
   padding: 10px;
@@ -367,13 +369,13 @@ width: 320px;}
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   font-size: 5px;
   text-align: center;
-} .cbu{font-size: 15px;}
+} .cbu{font-size: 13px;}
 .regalo{list-style: none;
   text-decoration: none;
     border-radius: 50px;
     background-color: #eddfb3;
     color: black;
-    padding: 20px 20px;
+    padding: 5px 20px;
     font-size: 16px;
     border: none;
     cursor: pointer;
