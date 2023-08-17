@@ -241,7 +241,7 @@ justify-content: center;}
   align-items: center;
   padding: 0%; margin-top: 30px;}
 
-  @media (max-width: 420px) {
+  @media (max-width: 415px) {
 header{ background-size: 420px ;
   background-repeat: no-repeat;
   width: 420px;
@@ -302,7 +302,7 @@ width: 320px;}
 .regresiva{width: 420px;}
   .simply-section{background-color:#f1ead1;
     background-image: url(/img/flor.png);
-    background-size: 100%;
+    background-size: cover;
   width: 78px;
   height: 70px;
   margin: 10px 5px;
@@ -326,15 +326,15 @@ width: 320px;}
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
-    padding: 4px;
+    padding-left: 9px;
     }
     .opcion5{display: flex;
     height: 200px;
-  width: 410px;}
+  width: 411px;}
     
     .fotomirandonos2{display: flex;
     height: 250px;
-    width: 205px;
+    width: 197px;
     }
     .opcion3{display: flex;
     height: 200px;
@@ -342,7 +342,7 @@ width: 320px;}
       }
     .beso{display: flex;
       height: 250px;
-    width: 205px;
+    width: 198px;
       }
       .color1 { background-color: #ccded2 ;  border-radius: 100%; width: 70px; height: 70px;  color: white; }
 .color2 { background-color: #fffbd4; border-radius: 100%; width: 70px; height: 70px;  color: white;}
