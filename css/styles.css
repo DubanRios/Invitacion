@@ -241,7 +241,7 @@ justify-content: center;}
   align-items: center;
   padding: 0%; margin-top: 30px;}
 
-  @media (max-width: 320px) {
+  @media (max-width: 420px) {
 header{ background-size: 100% ;
   background-repeat: no-repeat;
   width: 320px;
@@ -269,6 +269,29 @@ h1{display: inline-block;
   }
   h1::after{
     right: -70px;
+  }
+  .simply-section{background-color:#f1ead1;
+    background-image: url(/img/flor.png);
+    background-size: cover;
+  width: 1px;
+  height: 60px;
+  margin: 2px 5px;
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;  }
+  
+  .simply-amount{display: block;
+    font-family: 'Shippori Mincho', serif;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .simply-word{ font-weight: 200;
+  font-size: 14px;
   }
     }
   
