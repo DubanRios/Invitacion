@@ -242,12 +242,13 @@ justify-content: center;}
   padding: 0%; margin-top: 30px;}
 
   @media (max-width: 420px) {
-header{ background-size: 100% ;
+header{ background-size: 390px ;
   background-repeat: no-repeat;
-  width: 380px;
+  width: 370px;
 height: 200px;}
 footer{ background-size: cover;
-  width: 380px;
+  background-size: 390px ;
+  width: 370px;
 height: 200px;}
 h1{display: inline-block;
   position: relative;
@@ -298,7 +299,7 @@ h1{display: inline-block;
     font-size: 30px;
   margin:30px ;
 width: 320px;}
-.regresiva{width: 380px;}
+.regresiva{width: 370px;}
   .simply-section{background-color:#f1ead1;
     background-image: url(/img/flor.png);
     background-size: cover;
@@ -325,20 +326,23 @@ width: 320px;}
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
+    padding: 4px;
     }
     .opcion5{display: flex;
-    height: 207px;}
+    height: 200px;
+  width: 363px;}
     
     .fotomirandonos2{display: flex;
     height: 250px;
-    width: 173px;
+    width: 172px;
     }
     .opcion3{display: flex;
-    height: 207px;
+    height: 200px;
+    width: 365px;
       }
     .beso{display: flex;
       height: 250px;
-    width: 184px;
+    width: 187px;
       }
       .color1 { background-color: #ccded2 ;  border-radius: 100%; width: 70px; height: 70px;  color: white; }
 .color2 { background-color: #fffbd4; border-radius: 100%; width: 70px; height: 70px;  color: white;}
@@ -353,8 +357,8 @@ width: 320px;}
 .color11{background-color: #aab69b; border-radius: 100%; width: 70px; height: 70px;  color: white;}
 .color12{background-color: #999999; border-radius: 100% ;width: 70px; height: 70px;  color: white;}
 .popup {
-  width: 340px;
-  height: 600px;
+  width: 370px;
+  height: 500px;
   display: none;
   transform: translate(-50%, -50%);
   padding: 10px;
@@ -362,7 +366,8 @@ width: 320px;}
   border: none;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   font-size: 5px;
-}
+  text-align: center;
+} .cbu{font-size: 14px;}
 .regalo{list-style: none;
   text-decoration: none;
     border-radius: 50px;
