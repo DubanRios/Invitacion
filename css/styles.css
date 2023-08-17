@@ -17,8 +17,8 @@ margin-bottom: 90px;
 
 }
 .simply-section{background-color:#f1ead1;
-  background-image: url(../img/flor.png);
-  background-size: 100%;
+  background-image: url(/img/flor.png);
+  background-size: cover;
 width: 180px;
 height: 180px;
 margin: 6px 20px;
@@ -241,129 +241,34 @@ justify-content: center;}
   align-items: center;
   padding: 0%; margin-top: 30px;}
 
-
- @media (max-width: 768px) {
-header{background-image: url(/img/agarrados.jpg);
-background-size:  765px 500px;
-background-repeat: no-repeat;
-width:775px ;
-height:500px;
-display: flex;
-justify-content: center;
-align-items: center;
-  }
+  @media (max-width: 320px) {
+header{ background-size: 100% ;
+  background-repeat: no-repeat;
+  width: 320px;
+height: 200px;}
 h1{display: inline-block;
   position: relative;
   font-family: 'Shippori Mincho', serif;
   color: white;
+  font-size: 15px;
   }
   
-    h1::after,h1::before{
-      content:'';
-      position:absolute;
-      width: 140px;
-      height: 2px;
-      background-color: white;
-      top: 0.6em;
-      }
-      
-    h1::before{
-      left: -150px;
-    }
-    h1::after{
-      right: -150px;
-    }
-    .simply-section{background-color:#f1ead1;
-      background-image: url(/img/flor.png);
-      background-size: 100%;
-      width: 120px;
-height: 180px;
-margin: 6px 20px;
-padding: 40px; }
-.galeria{width: 760px;  }
-  .opcion5{display: flex;
-  height: 245px;
-width: 500px;}
+  h1::after,h1::before{
+  content:'';
+  position:absolute;
+  width: 50px;
+  height: 2px;
+  background-color: white;
+  top: 0.67em;
   
-  .fotomirandonos2{display: flex;
-  height: 240px;
-  width: 250px      }
-  .opcion3{display: flex;
-  height: 245px; width: 500px;    }
-  .beso{display: flex;
-    height: 240px;      width: 250px ;       }
-    footer{background-image: url(/img/escaleras.jpg);
-      background-size: 765px 500px;
-      background-repeat: no-repeat ;
-      width: 775px;
-    height: 500px ;
-  /* body{font-size: 10px;}
-  footer{background-image: url(/img/escaleras.jpg);
-    background-size: 425px 200px;
-    background-repeat: no-repeat ;
-    width: 599px;
-  height: 370px ;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0%; margin-top: 30px;}
   
-  #cuenta {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 90px;
-    
+  
+  }
+  h1::before{
+    left: -70px;
+  }
+  h1::after{
+    right: -70px;
+  }
     }
-    
-    h2{
-      display: flex;
-      justify-content:
-      center;
-      text-align: center;
-      align-items: center;
-      font-size: 5px;
-    margin:10px ;}
-    
-    .galeria{
-      display: flex;
-      flex-direction: row;
-      flex-wrap:wrap;
-      }
-      .opcion5{display: flex;
-      height: 200px;
-    width: 385px;}
-      
-      .fotomirandonos2{display: flex;
-      height: 200px;
-      width: 200px      }
-      .opcion3{display: flex;
-      height: 200px; width: 385px;    }
-      .beso{display: flex;
-        height: 200px;      width: 200px ;       } 
-
-        h5{display: inline-block;
-          position: relative;
-          margin: 10px;
-        }
-        h5::after,h5::before{
-          content:'';
-          position:absolute;
-          width: 100px;
-          height: 3px;
-          background-color: rgb(0, 0, 0);
-          top: 0.67em;
-          
-          
-          
-          }
-          h5::before{
-            left: -140px;
-          }
-          h5::after{
-            right: -140px;
-          } */
-        }
-
   
-  @media (min-width: 992px) {
-  } 
