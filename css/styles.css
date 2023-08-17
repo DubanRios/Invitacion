@@ -241,14 +241,14 @@ justify-content: center;}
   align-items: center;
   padding: 0%; margin-top: 30px;}
 
-  @media (max-width: 415px) {
-header{ background-size: 420px ;
+  @media (max-width: 400px) {
+header{ background-size: 400px ;
   background-repeat: no-repeat;
-  width: 420px;
+  width: 400px;
 height: 200px;}
 footer{ background-size: cover;
-  background-size: 420px ;
-  width: 420px;
+  background-size: 400px ;
+  width: 400px;
 height: 200px;}
 h1{display: inline-block;
   position: relative;
@@ -326,7 +326,7 @@ width: 320px;}
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
-    padding-left: 9px;
+    width: 400px;
     }
     .opcion5{display: flex;
     height: 200px;
@@ -334,7 +334,7 @@ width: 320px;}
     
     .fotomirandonos2{display: flex;
     height: 250px;
-    width: 197px;
+    width: 200px;
     }
     .opcion3{display: flex;
     height: 200px;
@@ -342,7 +342,7 @@ width: 320px;}
       }
     .beso{display: flex;
       height: 250px;
-    width: 198px;
+    width: 200px;
       }
       .color1 { background-color: #ccded2 ;  border-radius: 100%; width: 70px; height: 70px;  color: white; }
 .color2 { background-color: #fffbd4; border-radius: 100%; width: 70px; height: 70px;  color: white;}
