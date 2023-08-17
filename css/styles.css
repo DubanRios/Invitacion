@@ -331,7 +331,7 @@ width: 320px;}
     
     .fotomirandonos2{display: flex;
     height: 250px;
-    width: 184px;
+    width: 173px;
     }
     .opcion3{display: flex;
     height: 207px;
@@ -353,16 +353,15 @@ width: 320px;}
 .color11{background-color: #aab69b; border-radius: 100%; width: 70px; height: 70px;  color: white;}
 .color12{background-color: #999999; border-radius: 100% ;width: 70px; height: 70px;  color: white;}
 .popup {
-  width: 350px;
-  height: 800px;
+  width: 340px;
+  height: 600px;
   display: none;
-  
   transform: translate(-50%, -50%);
   padding: 10px;
   background-color: #eddfb3;
   border: none;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  font-size: 1  px;
+  font-size: 5px;
 }
 .regalo{list-style: none;
   text-decoration: none;
