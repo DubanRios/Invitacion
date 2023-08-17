@@ -246,6 +246,9 @@ header{ background-size: 100% ;
   background-repeat: no-repeat;
   width: 380px;
 height: 200px;}
+footer{ background-size: cover;
+  width: 380px;
+height: 200px;}
 h1{display: inline-block;
   position: relative;
   font-family: 'Shippori Mincho', serif;
@@ -270,6 +273,24 @@ h1{display: inline-block;
   h1::after{
     right: -70px;
   }
+  h5::after,h5::before{
+    content:'';
+    position:absolute;
+    width: 50px;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    top: 0.67em;
+    
+    
+    
+    }
+    h5::before{
+      left: -70px;
+    }
+    h5::after{
+      right: -70px;
+    }
+  
   h2{
     display: flex;
     justify-content:
@@ -277,8 +298,7 @@ h1{display: inline-block;
     font-size: 30px;
   margin:30px ;
 width: 320px;}
-.regresiva{width: 520px;
-height: 500px;}
+.regresiva{width: 380px;}
   .simply-section{background-color:#f1ead1;
     background-image: url(/img/flor.png);
     background-size: cover;
@@ -301,5 +321,58 @@ height: 500px;}
   .simply-word{ font-weight: 200;
   font-size: 15px;
   }
+  .galeria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
     }
+    .opcion5{display: flex;
+    height: 207px;}
+    
+    .fotomirandonos2{display: flex;
+    height: 250px;
+    width: 184px;
+    }
+    .opcion3{display: flex;
+    height: 207px;
+      }
+    .beso{display: flex;
+      height: 250px;
+    width: 184px;
+      }
+      .color1 { background-color: #ccded2 ;  border-radius: 100%; width: 70px; height: 70px;  color: white; }
+.color2 { background-color: #fffbd4; border-radius: 100%; width: 70px; height: 70px;  color: white;}
+.color3 {background-color: #f5ddbb;  border-radius: 100%;width: 70px; height: 70px;  color: white;}   
+.color4 {background-color: #e3b8b2; border-radius: 100%;width: 70px; height: 70px;  color: white;}
+.color5{background-color: #f46472; border-radius: 100%;width: 70px; height: 70px;  color: white;}
+.color6{background-color: #a18093; border-radius: 100%;width: 70px; height: 70px;  color: white;}
+.color7{background-color: #000706; border-radius: 100%; width: 70px; height: 70px;  color: white;}
+.color8{background-color: #101010; border-radius: 100%; width: 70px; height: 70px;  color: white;}
+.color9{background-color: #3f3f3f; border-radius: 100% ;width: 70px; height: 70px;  color: white;}
+.color10{background-color: #2b4e72; border-radius: 100% ;width: 70px; height: 70px;  color: white;}
+.color11{background-color: #aab69b; border-radius: 100%; width: 70px; height: 70px;  color: white;}
+.color12{background-color: #999999; border-radius: 100% ;width: 70px; height: 70px;  color: white;}
+.popup {
+  width: 350px;
+  height: 800px;
+  display: none;
+  
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  background-color: #eddfb3;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  font-size: 1  px;
+}
+.regalo{list-style: none;
+  text-decoration: none;
+    border-radius: 50px;
+    background-color: #eddfb3;
+    color: black;
+    padding: 20px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    } }
   
