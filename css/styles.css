@@ -182,6 +182,7 @@ justify-content: center;}
     font-size: 16px;
     border: none;
     cursor: pointer;
+    text-decoration: none;
   }
 
   .mi-boton1{list-style: none;
@@ -194,6 +195,7 @@ justify-content: center;}
       border: none;
       cursor: pointer;
       margin: 20px;
+      text-decoration: none;
     }
 
     .regalo{list-style: none;
