@@ -246,12 +246,12 @@ justify-content: center;}
   @media (max-width: 435px) {
 header{ background-size: contain ;
   background-repeat: no-repeat;
-  width: 410px;
+  width: 420px;
 height: 225px;}
 footer{
   background-size: contain ;
   background-repeat: no-repeat;
-  width: 410px;
+  width: 420px;
 height: 225px;}
 h1{display: inline-block;
   position: relative;
